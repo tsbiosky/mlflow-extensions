@@ -72,7 +72,7 @@ COHERE_FOR_AYA_23_35B = EzDeployConfig(
     name="cohere_aya_35b",
     engine_proc=_ENGINE,
     engine_config=_ENGINE_CONFIG(
-        model="CohereForAI/aya-23-35B",
+        model="tsbiosky/Aya23-35B-hok-pure",
         guided_decoding_backend="outlines",
         vllm_command_flags={
             "--max-num-seqs": 128,
